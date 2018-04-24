@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.master_view.ui.Demo_AnimationActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/bt_alpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"
+        />
+
+    <TextView
+        android:id="@+id/tv_alpha"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_background_shape"
+        android:gravity="center"
+        android:text="透明度"
+        />
+
+
+    <ImageView
+        android:id="@+id/iv_alpha"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="@drawable/p1"
+        />
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/bt_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始"
+            />
+        <TextView
+            android:id="@+id/tv_translate"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="位移"
+            android:background="@drawable/button_background_shape"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/iv_translate"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="@drawable/p3"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/bt_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始"
+            />
+        <TextView
+            android:id="@+id/tv_rotate"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="旋转"
+            android:background="@drawable/button_background_shape"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/iv_rotate"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="@drawable/p7"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/bt_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始"
+            />
+        <TextView
+            android:id="@+id/tv_scale"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="缩放"
+            android:background="@drawable/button_background_shape"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/iv_scale"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="@drawable/p7"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/bt_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="帧动画"
+            android:background="@drawable/button_background_shape"
+            android:gravity="center"
+            />
+
+
+        <ImageView
+            android:id="@+id/iv_frame"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="@drawable/p7"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

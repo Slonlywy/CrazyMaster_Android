@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    tools:context="com.example.administrator.master_view.ui.Demo_ChatActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+  <LinearLayout
+      android:id="@+id/ll_rv"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:visibility="gone"
+      >
+
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/rv_chat"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          >
+      </android.support.v7.widget.RecyclerView>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_gravity="bottom"
+          >
+
+          <EditText
+              android:id="@+id/et_sendcontent"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              />
+
+
+          <Button
+              android:id="@+id/bt_send"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="send"
+              android:textColor="@color/lightblue"
+              />
+      </LinearLayout>
+
+  </LinearLayout>
+
+        <!--.9图片-->
+        <LinearLayout
+            android:id="@+id/nine_patch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="普通图片"
+                android:textColor="@color/lightblue"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/juxing_normal"
+                android:text="asdadadadasdadhadkjdjadkjadakjdadkjadkjadhkjdjad"
+                android:textColor="@color/white"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text=".9图片"
+                android:textColor="@color/lightblue"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/juxing_left"
+                android:gravity="center"
+                android:text=".9图片"
+                android:textColor="@color/white"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/juxing_left"
+                android:gravity="center"
+                android:text=".9图片sdljladjkls
+las;dk;lasdlkasd;lkdkad;lka;dlk;ladk;akd;akdakdakdsd
+askd;lkad;lkldk;ak;dad;ladk;akd;a"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/juxing_left"
+                android:gravity="center"
+                android:text=".9图片sdkakjdoajdijadkiajdkljadkljadkljasdljasdkljdljladjlajdljadljdklajdklajdljldkadjdjlkdjkajdljadljladjkls
+las;dk;lasdlkasd;lkdkad;lka;dlk;ladk;akd;akdakdakdsd;a
+sd;lals;dk;lakdadl;akd;lkd;lkd;lka;ldk;kdlasdk;ladklkd;ka;d
+jadkjasdjl;dka;ldk;ldkl;dk;lakd;ladk;kadldk;ladklkd;lkd;lkdlkaldaskd;kdakd;alsdkl;dk;ladk;lakdakd
+sdklkasd;llkad;lkd;k;ldk;dk;ladkd;ladl
+askd;lkad;lkldk;ak;dad;ladk;akd;a"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/bt_ChangeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换界面"
+        />
+
+
+</LinearLayout>

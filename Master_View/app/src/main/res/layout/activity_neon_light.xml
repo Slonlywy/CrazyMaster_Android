@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.master_view.ui.Demo_NeonLightActivity">
+
+    <!--先定义的在最底层-->
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="140pt"
+        android:height="140pt"
+        android:background="#f00"
+        />
+
+    <TextView
+        android:id="@+id/tv_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="120pt"
+        android:height="120pt"
+        android:background="#0f0"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="100pt"
+        android:height="100pt"
+        android:background="#00f"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="80pt"
+        android:height="80pt"
+        android:background="#0ff"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="60pt"
+        android:height="60pt"
+        android:background="#ff0"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="40pt"
+        android:height="40pt"
+        android:background="#f0f"
+        />
+
+
+</FrameLayout>

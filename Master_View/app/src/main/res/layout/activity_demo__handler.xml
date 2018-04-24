@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.master_view.ui.Demo_HandlerActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="你好"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/bt_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="改变标题"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <Button
+        android:id="@+id/bt_AsyncTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AsyncTask机制"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/bt_photoPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="handler加载相册"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

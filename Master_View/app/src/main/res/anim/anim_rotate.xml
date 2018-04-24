@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="0"
+        android:pivotX="0%"
+        android:pivotY="0%"
+        android:toDegrees="360"
+    />
+
+
+    <!--
+         pivot 决定了当前动画执行的参考位置
+        10 	距离动画所在view自身左边缘10像素
+        10% 	距离动画所在view自身左边缘 的距离是整个view宽度的10%
+        10%p 	距离动画所在view父控件左边缘的距离是整个view宽度的10%-->

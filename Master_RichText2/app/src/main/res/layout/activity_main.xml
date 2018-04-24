@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yunwen.master_richtext.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_fragment_chat_cartoon_bubble"
+        >
+        <com.example.yunwen.master_richtext.richText.RichText
+            android:id="@+id/rich_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_fragment_chat_cartoon_bubble"
+        >
+        <com.example.yunwen.master_richtext.richText.RichImageView
+            android:id="@+id/rich_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

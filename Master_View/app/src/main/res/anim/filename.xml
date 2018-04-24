@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--XML方式自定义插值器-->
+<accelerateInterpolator xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:factor="5"
+>
+
+</accelerateInterpolator>
+
+
+<!--
+<accelerateDecelerateInterpolator>
+
+无可自定义的attribute。
+
+<accelerateInterpolator>
+
+android:factor 浮点值，加速速率（默认值为1）。
+
+<anticipateInterploator>
+
+android:tension 浮点值，起始点后拉的张力数（默认值为2）。
+
+<anticipateOvershootInterpolator>
+
+android:tension 浮点值，起始点后拉的张力数（默认值为2）。
+android:extraTension 浮点值，拉力的倍数（默认值为1.5）。
+
+<bounceInterpolator>
+
+无可自定义的attribute。
+
+<cycleInterplolator>
+
+android:cycles 整形，循环的个数（默认为1）。
+
+<decelerateInterpolator>
+
+android:factor 浮点值，减速的速率（默认为1）。
+
+<linearInterpolator>
+
+无可自定义的attribute。
+
+<overshootInterpolator>
+
+android:tension 浮点值，超出终点后的张力（默认为2）。
+-->

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.administrator.master_view.ui.Demo_AlertDialogActivity">
+
+    <TextView
+        android:id="@+id/alertdialog_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="AlertDialog"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background_shape"
+        />
+
+
+    <TextView
+        android:id="@+id/alertdialog_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="AlertDialog_列表"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background_shape"
+        />
+
+    <TextView
+        android:id="@+id/alertdialog_list_singlechoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="AlertDialog_列表(单选)"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background_shape"
+        />
+
+
+    <TextView
+        android:id="@+id/alertdialog_list_multichoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="AlertDialog_列表(多选)"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background_shape"
+        />
+
+    <TextView
+        android:id="@+id/alertdialog_customview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="AlertDialog_自定义view"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background_shape"
+        />
+
+
+    <TextView
+        android:id="@+id/alertdialog_dialogfragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="AlertDialog_DialogFragment"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background_shape"
+        />
+
+
+
+    <TextView
+        android:id="@+id/alertdialog_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="AlertDialog_动画效果"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background_shape"
+        />
+</LinearLayout>

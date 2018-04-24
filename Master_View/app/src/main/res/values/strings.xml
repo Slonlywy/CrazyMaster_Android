@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Master_View</string>
+    <string name="alertdialog_name">这是一个AlertDialog!!!!!</string>
+    <string name="alertdialog_message">我是一个AlertDialog</string>
+    <string name="alertdialog_PositiveButton">确定</string>
+    <string name="alertdialog_NegativeButton">cancel</string>
+
+
+    <string name="alertdialog_listName">AlertDialog列表</string>
+    <string name="alertdialog_customName">AlertDialog自定义View</string>
+
+
+</resources>

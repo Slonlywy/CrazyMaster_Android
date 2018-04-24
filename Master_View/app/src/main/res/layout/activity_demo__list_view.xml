@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.master_view.ui.Demo_ListViewActivity">
+
+    <!--静态添加数据 指定一个数组资源  entries属性-->
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="5px"
+        android:entries="@array/books"
+        >
+    </ListView>
+
+<!--通过ArrayAdapter适配器添加-->
+    <ListView
+        android:id="@+id/listview_arrayadapter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="5px"
+        >
+    </ListView>
+
+
+    <ListView
+        android:id="@+id/listview_custom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="5px"
+        >
+    </ListView>
+
+</LinearLayout>

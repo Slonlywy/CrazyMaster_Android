@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yunwen.master_htmlparse_demo.MainActivity">
+
+    <Button
+        android:id="@+id/bt_parse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解析html字符串"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/bt_parse_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解析html_body片段"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/bt_parse_Url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解析从一个URL加载一个Document"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/bt_parse_hezhang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="赫章测试"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/tv_show_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tv_show_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_show_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/tv_show_html"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_show_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
